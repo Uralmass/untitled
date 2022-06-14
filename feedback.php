@@ -12,7 +12,7 @@
     <h1>Обратная связь</h1>
     <form action="" method="post">
         <input type="text" class="form-control" name="text" id="text" placeholder="Тема сообщения"><br>
-        <textarea name="Описание" cols="50" rows=""> Текст проблемы</textarea><br>
+        <textarea name="Описание" cols="50" rows="" placeholder="Описание"></textarea><br>
         <input name="contact" type="radio" value="help"> Помочь удалённо<br>
         <input name="contact" type="radio" value="sos"> Отправить мастера<br>
         <p>Код красный? <input type="checkbox" name="remember"/></p><br>
@@ -24,7 +24,7 @@
             <option value="Само наладится">Само наладится</option>
         </select><br><br>
         <button class="btn btn-primary" type="submit">Отправить данные</button>
-        <button class="btn btn-secondary" type="submit">Сбросить данные</button>
+        <input class="btn btn-primary" type="reset"/>
     </form>
 </div>
 
