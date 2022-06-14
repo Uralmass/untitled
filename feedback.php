@@ -23,7 +23,7 @@
             <option value="Послезавтра">Послезавтра</option>
             <option value="Само наладится">Само наладится</option>
         </select><br><br>
-        <button class="btn btn-primary" type="submit">Отправить данные</button>
+        <button class="btn btn-primary">Отправить данные</button>
         <input class="btn btn-primary" type="reset"/>
     </form>
 </div>
